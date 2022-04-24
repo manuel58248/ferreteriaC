@@ -26,6 +26,7 @@ namespace FerreteríaPuntoVenta.View.order_purchase
         private void create_order_purchase_Load(object sender, EventArgs e)
         {
             txtfecharegistro.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            txttotalpagar.Text = "0.00";
         }
 
         private void button_cerrar_Click(object sender, EventArgs e)
@@ -78,6 +79,11 @@ namespace FerreteríaPuntoVenta.View.order_purchase
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox10_TextChanged(object sender, EventArgs e)
         {
 
         }
